@@ -1,0 +1,366 @@
+.myName {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.picme {
+    width: 275px;
+    margin-left: 55px;
+    margin-top: 35px;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #00C853, #B2FF59);
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.picpurdue {
+    width: 250px;
+    margin-left: 450px;
+    margin-bottom: 175px;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #00C853, #B2FF59);
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.piclockheed {
+    width: 225px;
+    margin-left: -375px;
+    top: 10px;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #00C853, #B2FF59);
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+
+}
+
+.picnasa {
+    width: 225px;
+    margin-left: 10px;
+    top: 10px;
+    border-radius: 10%;
+    border: 10px solid white;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.navbars {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.navbut1 {
+    background-color: black;
+    border: none;
+    color: #4169E1;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.navbut2 {
+    background-color: black;
+    border: none;
+    color: #4169E1;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.navbut3 {
+    background-color: black;
+    border: none;
+    color: #4169E1;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.parallax {
+    background-image: url("https://mmo.aiircdn.com/265/6142af2237a40.jpg");
+    min-height: 375px;
+    min-width: max-content;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1 {
+    margin: 0;
+    
+}
+
+.parallax h2 {
+    margin: 0;
+}
+
+.parallaxbackground {
+    height: 400px;
+    background-image: linear-gradient(yellow, red);
+    opacity: 85%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.par1text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.par2text {
+    text-align: center;
+    font-size: 36px;
+}
+
+.par1aboutmetext {
+    margin-top: -250px;
+    text-indent: 45px;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
+
+}
+
+.picstealth {
+    width: 300px;
+    margin-left: 850px;
+    margin-top: 65px;
+    border: 10px solid white;
+
+}
+
+.flip-card {
+    padding: 25px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    background-image: linear-gradient(yellow, red);
+    ;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-inner:hover{
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #FFD700;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.flip-card2 {
+    padding: 25px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    margin-left: 400px;
+    margin-top: -325px;
+    background-image: linear-gradient(yellow, red);
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-inner2:hover {
+    transform: rotateY(180deg);
+
+}
+
+/* Position the front and back side */
+.flip-card-front2,
+.flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front2 {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back2 {
+    background-color: orange;
+    color: black;
+    transform: rotateY(180deg);
+}
+.flip-card3 {
+    padding: 25px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    margin-left: 400px;
+    margin-top: -325px;
+    background-image: linear-gradient(yellow, red);
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card3:hover .flip-card-inner3 {
+    transform: rotateY(180deg);
+
+}
+
+/* Position the front and back side */
+.flip-card-front3,
+.flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front3 {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back3 {
+    background-color: rgba(255, 0, 0, 0.92);
+    color: black;
+    transform: rotateY(180deg);
+}
+.visit1 {
+    background-color: white;
+    width: 150px;
+}
+
+.visit2 {
+    background-color: white;
+    width: 150px;
+}
+
+.visit3 {
+    background-color: white;
+    width: 150px;
+}
+
+.contacthead {
+}
+
+.email {
+    background-image: url(https://media.istockphoto.com/id/1188904068/vector/mail-post-envelope-icon-shape-postage-logo-symbol-e-mail-communication-sign-button-vector.jpg?s=170667a&w=0&k=20&c=HbEd33JHogAOgCZDPD4cjHOouHy4VN1HDQW1joct-cE=);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center; 
+    cursor: pointer;
+}
+.linkedin {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.instagram {
+    background-image: url(https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1719964800&semt=ais_user);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
